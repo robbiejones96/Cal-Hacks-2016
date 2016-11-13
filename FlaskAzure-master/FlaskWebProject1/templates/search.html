@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Search{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    {% if keyword %} <img src="{{ url_for('fig') }}" height="500" width = "700"/> {%else%}{%endif%}
+</div>
+{{ wtf.quick_form(form) }}
+{% endblock %}

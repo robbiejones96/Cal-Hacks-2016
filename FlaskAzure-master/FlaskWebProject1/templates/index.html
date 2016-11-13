@@ -3,30 +3,27 @@
 {% block content %}
 
 <div class="jumbotron">
-    <h1>Flask</h1>
-    <p class="lead">Flask is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://flask.pocoo.org/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+    <h1>Moasic</h1>
+    <p class="lead">Media Online Sentiment Analysis Informing Citizens (MOSAIC) is meant to help consumers of news stations sift through biases to make wholistic, well-informed opinions.</p>
+    <p><a href="{{url_for('search') }}" class="btn btn-primary btn-large">Get Started &raquo;</a></p>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            Flask gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://flask.pocoo.org/docs/">Learn more &raquo;</a></p>
+        <h2 style="display:inline">Tools</h2><i class="fa fa-wrench fa-2x" aria-hidden="true"></i>
+        <p>Check the main resources we used for our project, IBM's Bluemix AlchemyAPI and Python's Flask.</p>
+        <p><a class="btn btn-default" href="https://www.ibm.com/cloud-computing/bluemix/">Bluemix &raquo;</a><a class="btn btn-default" href="flask.pocoo.org/">Flask &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>The Python Package Index is a repository of software for the Python programming language.</p>
-        <p><a class="btn btn-default" href="https://pypi.python.org/pypi">Learn more &raquo;</a></p>
+        <h2 style="display:inline">Thank You<img src="/static/images/ddoski_head.png" height="30" width="30" vertical-align="top"/></h2>
+        <p>Thanks to UC Berkeley for hosting us and giving us free swag and yummies.</p>
+        <p><a class="btn btn-primary" href="http://www.berkeley.edu/">Cal's Website &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Microsoft Azure</h2>
-        <p>You can easily publish to Microsoft Azure using Python Tools for Visual Studio. Find out how you can host your application using a free trial today.</p>
-        <p><a class="btn btn-default" href="http://azure.microsoft.com">Learn more &raquo;</a></p>
+        <h2 style="display:inline">Code</h2>
+        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        <p>You can see our code in our Github repository, where we hope to improve and build upon our project.</p>
+        <p><a class="btn btn-success" href="https://github.com/robbiejones96/Cal-Hacks-2016">Learn more &raquo;</a></p>
     </div>
 </div>
 
