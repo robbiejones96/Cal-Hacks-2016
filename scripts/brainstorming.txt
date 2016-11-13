@@ -1,0 +1,28 @@
+Problem: in such a polarized media landscape
+  1. People now more than ever are boxed into 1 or some small subset of media topics
+    - topics are treated with such volatility it's hard to get past certain rhetoric and evaluate from a more informaed position
+
+Ideas:
+  1. Can we graph treatment of certain topics vs polls conducted by those outlets?
+
+
+Goals:
+  1. For an individual, can we give them the ability to make a better perspective of media outlets for the purpose of making a choice to inform themselves
+  2. Tool to compare media sites and the social impact that they have
+  3. Plot sentiment scores over time for certain topics by news outlet
+
+Steps:
+  1. Pick a comprehensive set of popular media sources and provide "analytics" on those
+  2. Current topics to test on: election/individual parties
+
+Tools:
+  1. Azure
+    a. text analytics/sentiment analysis
+  2. Watson
+    a. alchemy news api
+    b. tone analyzer
+
+
+Add-ons:
+  1. method of dispaying/interface
+  2. Additional news articles (Alchemy only gives 60 day window)
